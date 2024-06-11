@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+
+}
+body{
+    font-family: Roboto, sans-serif;
+    font-size: 1.4rem;
+}
+.content{
+    display: grid;
+    grid-template-areas: 
+    ". . . . ."
+    ". hero . form ."
+    ". hero . form ."
+    ". . . . .";
+    gap: 8.5rem;
+
+}
+
+main{
+    grid-area: form;
+}
+aside{
+    grid-area: hero;
+}
+
+aside h1{
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+span{
+    color: #CB6CE6;
+}
+main{
+    width: 60rem;
+    height: 52rem;
+    border: 0.1rem solid rgba(0, 0, 0, 15);
+    padding-top: 4.4rem;
+    padding: 5.7rem;
+    border-radius: 1.2rem;
+
+}
+main h2{
+    max-width: 43rem;
+    font-size: 3.6rem;
+    font-weight: 500;
+}
+main .action{
+    display: flex;
+    flex-flow: column;
+}
+main .action a{
+    background-color: #35E6e9;
+    height: 5.5rem;
+    font-size: 2.4rem;
+    border-radius: 1.2rem;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 4rem;
+    
+}
+main .action a + a{
+background-color: #CB6CE6;
+margin-top: 4rem;
+
+}
+main footer p{
+    margin-top: 5rem;
+    font-size: 1.6rem
+
+}
+main footer a{
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    display: block;
+    text-align: center;
+    color: black;
+
+
+}

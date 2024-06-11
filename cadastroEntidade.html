@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeForm - Cadastro</title>
+    <link rel="stylesheet" href="assets/fontawesome-free-6.5.2-web/fontawesome-free-6.5.2-web/css/all.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body class="content">
+    <aside>
+        <img src="assets/animals.png" alt="">
+        <h1><span>We</span>Form</h1>
+    </aside>
+
+    <main>
+      <header>
+        <a href="index.html">
+            <i class="fa-solid fa-angle-left"></i>
+        </a>
+        <h2>Nova <span>entidade</span></h2>
+      </header>
+
+      <form>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" placeholder="Digite seu nome...">
+
+        <label for="atuacao">Campo de atuação:</label>
+        <div class="select-wrapper">
+            <select id="atuacao">
+                <option value="" disabled selected>Selecione uma das opções</option>
+                <option value="Abrigo_animais">Abrigo de animais</option>
+                <option value="Resgate">Resgate de animais</option>
+                <option value="Outra_opcao">Outra opção</option>
+            </select>
+        
+        </div>
+        
+
+        <label for="coleta">Campo de coleta:</label>
+        <input type="text" id="coleta" placeholder="Digite o campo de coleta...">
+        <button>
+            <i class="fa-solid fa-circle-plus"></i>
+        </button>
+      </form>
+
+      <div class="action">
+        <a href="#">Cadastrar</a>
+      </div>
+    </main>
+</body>
+</html>

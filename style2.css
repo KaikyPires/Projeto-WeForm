@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-size: 62.5%;
+    --default-border: 0.1rem solid rgba(0, 0, 0, 15);
+    --default-border-radius: 1.2rem;
+}
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 1.4rem;
+}
+.content {
+    display: grid;
+    grid-template-areas: 
+    ". . . . ."
+    ". hero . form ."
+    ". hero . form ."
+    ". . . . .";
+    gap: 8.5rem;
+}
+main {
+    grid-area: form;
+}
+aside {
+    grid-area: hero;
+}
+aside h1 {
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 75px;
+    text-align: left;
+}
+span {
+    color: #CB6CE6;
+}
+main {
+    width: 60rem;
+    height: 52rem;
+    border: 0.1rem solid rgba(0, 0, 0, 15);
+    padding-top: 4.4rem;
+    padding: 5.7rem;
+    border-radius: 1.2rem;
+}
+main .action a {
+    background-color: #35E6e9;
+    height: 5.5rem;
+    font-size: 2.4rem;
+    border-radius: 1.2rem;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+main h2 {
+    max-width: 43rem;
+    font-size: 3.6rem;
+    font-weight: 500;
+}
+main .action {
+    display: flex;
+    flex-flow: column;
+}
+main form input, main form select {
+    width: 45.9rem;
+    height: 5.5rem;
+    background-color: white;
+    border: 0.1rem solid rgba(0, 0, 0, 15);
+    border-radius: 1.2rem;
+    margin-bottom: 1.6rem;
+}
+main form label {
+    font-size: 1.8rem;
+    font-weight: 400rem;
+    text-transform: lowercase;
+    margin-bottom: 1rem;
+    display: block;
+}
+main header {
+    display: flex;
+    align-items: center;
+    gap: 1.8rem;
+}
+main header i {
+    color: #CB6CE6;
+    font-size: 3rem;
+}
+main form {
+    margin-top: 1.6rem;
+}
+main button {
+    color: #CB6CE6;
+}
+.entidade-list {
+    margin-top: 2rem;
+}
+.entidade {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.15);
+}
+.entidade h3 {
+    font-size: 2rem;
+    margin-right: 2rem;
+}
+.entidade .especialização {
+    font-size: 1.4rem;
+    color: #666;
+    margin-right: 2rem;
+    background-color: #f1f1f1;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+}
+.entidade .view-more {
+    font-size: 1.4rem;
+    color: #CB6CE6;
+    text-decoration: none;
+}
+p{
+    text-align: center;
+}
