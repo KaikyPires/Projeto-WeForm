@@ -18,3 +18,10 @@ WeForm é uma aplicação web simples destinada ao cadastro de entidades de prot
 - `assets/`: Diretório que contém imagens e arquivos do FontAwesome.
 - `style2.css`: Arquivo CSS que contém os estilos utilizados no projeto.
 
+
+
+    <img src="https://github.com/KaikyPires/Projeto-WeForm/blob/c36d735c59b5ba882afab27e8356a6d8b58a8da3/WeForm%20Images/Captura%20de%20tela%202024-06-11%20200128.png" alt="Imagem 1" style="width: 25%;">
+    <img src="link_da_imagem_2" alt="Imagem 2" style="width: 25%;">
+    <img src="link_da_imagem_3" alt="Imagem 3" style="width: 25%;">
+    <img src="link_da_imagem_4" alt="Imagem 4" style="width: 25%;">
+
